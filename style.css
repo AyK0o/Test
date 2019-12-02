@@ -1,0 +1,423 @@
+body{
+	background-color: #f1f1f1;
+	width: 1024px;
+	margin: auto;
+}
+ .images_logo {
+width:150px;
+}
+.images_Galerie{
+width: 150px; 
+height: 100px;
+margin-right: 30px;
+margin-bottom: 15px;
+}
+.connexionnav{
+	display: inline-block;
+	float: right;
+}
+.espacelogo{
+	margin-left: 100px;
+}
+.reseaux{
+margin-left: 20px;
+}
+.logo_iut{
+width:400px;
+}
+.lienPage:hover
+{
+ text-decoration: underline;
+ color: blue;
+}
+.lien:hover /* Apparence au survol des liens */
+{
+ text-decoration: underline;
+ color: blue;
+}
+.imagehomepage{
+	width:600px;
+}
+nav :hover {
+	background-color: black;
+}
+
+nav{
+	width: 100%;
+	background-color:#708090;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+ .navsep{
+ 	padding-right: 10px;
+ 	border-right: solid white 2px;
+ }
+
+.lien {
+	text-decoration: none;
+	margin-left: 10px;
+	color: white;
+}
+.lienPage {
+	text-decoration: none;
+	margin-left: 10px;
+	color: black;
+}
+.liennav {
+	text-decoration: none;
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+main{
+	width: 100%;
+	background-color: white;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+.homepageGauche {
+	vertical-align:top;
+	margin-left: 30px; 
+	display: inline-block;
+	width: 600px;
+	margin-top: 20px;
+	background-color: white;
+
+}
+.textetitreMid{
+	font-size: 17px;
+	text-align: center;
+}
+h3{
+	font-size: 17px;
+}
+article{
+
+}
+.homepageMid{ 
+	display: inline-block;
+	margin-top: 20px
+	vertical-align:top;
+	border: 1px black solid;
+	width: 150px;
+	height: 275px;
+	background-color: #87CEEB;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 20px;
+	color: white;
+}
+.homepageMid2{ 
+	display: inline-block;
+	margin-top: 30px;
+    border: 1px black solid;
+	width: 150px;
+	height: 275px;
+	background-color: black;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+}
+.homepageDroite{
+	margin-right: 40px;
+	float: right;
+	margin-left: 10px;
+	background-color:rgb(255,244,240);
+	display: inline-block;
+	margin-top: 20px
+	vertical-align:top;
+	border: 1px grey solid;
+	width: 150px;
+	height: 564px;
+	text-align: center;
+	font-size: 17px;
+	color: black;
+}
+.imgarticle{
+	width: 100%;
+}
+h2{
+	font-size: 25px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.articleRGPD{
+display: inline-block;
+width: 550px;
+margin-left: 20px;
+}
+aside{
+	display: inline-block;
+	float:right;
+	margin-right: 20px;
+ 	border: 2px gray outset;
+	background-color: #706b64;
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 10px;
+	text-align: left;
+	font-size: 15px
+}
+h5{
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: left;
+	color: white;
+
+}
+footer{
+	width: 100%;
+
+	background-color: 	#708090;
+	text-align: center;
+	height: 50px;
+
+}
+.imgnav{
+	width: 25px;
+}
+.bordernavimg{
+	border: none;
+}
+.textconnection{
+	color: white;
+	text-align: right;
+	font-size: 12px;
+	margin-left: 5px; 
+}
+h5{
+	text-align: center;
+	border-bottom:  solid white 2px;;
+
+}
+.espacehaut{
+	margin-top: 30px;
+}
+.textewhite{
+	color: white;
+}
+.cbleu{
+	background-color: #4d5e6e;
+	border : none;
+	width: 80px;
+	height: 30px;
+}
+.commentairetaille{
+	height : 300px;
+	width : 100%;
+}
+.escpacedroite{
+	margin-left: 20px;
+}
+.pageconnexion{
+	background-color: #27313a	;
+	color: white;
+	height: 500px;
+}
+#connexiongauche{
+	display: inline-block;
+	vertical-align:top;
+	margin-left: 30px;
+}
+#connexionfb{
+	display: inline-block;
+
+	float: right;
+	margin-right: 200px;
+	vertical-align:top;
+}
+.txtgris{
+	color: grey;
+	margin-top: 0px;
+}
+#buttonFb{
+	color: white;
+	text-align: center;
+	background-color: #3b5998;
+	display: inline-block;
+	float: right;
+	width: 300px;
+	margin-right: 200px;
+	vertical-align:top;
+	border-radius: 1%;
+
+}
+#getpass{
+	text-decoration: none;
+	color: blue;
+}
+#getpass{
+	display: inline-block;
+	vertical-align:top;
+	text-decoration: none;
+	color: #3c7cc8;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#inscrpconnexion{
+	background-color: #3d454e;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 50px;
+	width: auto;
+	height: 100px; 
+
+}
+#btnInscr{
+	background-color:#c84a4a; 
+	display: inline-block;
+	float: right;
+	width: 300px;
+	height: 30px;
+	margin-right: 175px;
+	text-align: center;
+	vertical-align: center;
+	font-size: 15px;
+	margin-top: 10px;
+	
+}
+#disptxt{
+	display: inline-block;
+	margin-left: 50px;
+	vertical-align: center;
+}
+.textbtnconnexion{
+	font-size: 12px;
+}
+#insc{
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+#inscgauche{
+	display: inline-block;
+	font-size: 15px;
+	width:300px;
+}
+#inscdroite{
+	display: inline-block;
+	float: right;
+	font-size: 12px;
+	margin-right: 250px;
+
+}
+#alignh{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+}
+.inlineblock{
+	display: inline-block;
+}
+#tailleavatarprofil{
+	width: 30px;
+	height: auto;
+	display: inline-block;
+}
+#importphotoblock{
+	background-color: grey;
+	padding: 10px;
+	background-color: #45505B;
+	width: auto;
+	height: auto;
+	text-align: center
+}
+#btnImport{
+	display: inline-block;
+	float: auto;
+	background-color: #40474E;
+	border: none;
+	margin-left: 15px;
+	width: 150px;
+	padding: 10px;
+
+}
+#textejaune{
+	color:#8A643A;
+	width: 500px;
+	font-size: 15px;
+}
+#checkboxinscdroite{
+	margin-top: 10px;
+}
+#btnCreeCompte{
+	background-color:#c84a4a; 
+	height: 30px;
+	width: 200px;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 20px;
+	border: none;
+	color: white;
+}
+.sepbasblanc{
+	border-bottom: solid white 2px repeat-x;
+}
+#maingalerie{
+	background-color: #131313;
+	color: white;
+
+}
+#contenervideotxt{
+	display: inline-block;
+	border-radius: 3%;
+	border: inset white 1px;
+	width:620px;
+	margin-left: 20px;
+}
+#contenervideo{
+	border-radius: 5%;
+	width:600px;
+	padding: 10px;
+	align-content: center;
+}
+#textVideo{
+	padding: 10px;
+}
+#contenerarticledroite{
+	display: inline-block;
+	float: right;
+	border-radius: 10%;
+	border: dotted white 1px;
+	text-align: center;
+	width: 300px;
+	margin: 30px;
+	margin-top:180px; 
+}
+.lienGalerie {
+	text-decoration: none;
+	margin-left: 10px;
+	color: white;
+}
+.lienGalerie:hover
+{
+	border-radius: 1%;
+ text-decoration: none;
+ background-color: orange;
+}
+#latestimages{
+	display:inline-block;
+	width:600px;
+	padding: 40px; 
+}
+.basblanc{
+	border-bottom:solid white 1px;
+}
+#contenerCategorieDroite{
+	padding: 20px;
+	padding-top:40px; 
+	display: inline-block;
+	float: right;
+	text-align: left;
+	width: 300px;
+	vertical-align: top;
+}
+#pointGalerie1{
+	
+}
+#pointGalerie2{
+
+}

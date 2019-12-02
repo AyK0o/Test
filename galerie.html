@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>        <!--Fichier html-->
+	<head>
+		<meta charset="UTF-8"/> <!--Type d'encodage-->
+		<title> 4News </title>
+		
+		<LINK href="style.css" rel="stylesheet" type="text/css"> <!-- Css code --> 
+		
+		<LINK rel="stylesheet" media="all and (max-device-width: 1000px)" href="petite_resolution.css" /><!-- Css pour petit device -->
+		<script type="text/javascript">
+		//var video = document.getElementById('contenervideo');
+		//var source = document.createElement('source');
+		function changeVideo(x){
+			
+			if(x==1){
+				document.getElementById('contenervideo').src = 'Video/NSAisComingtoTown.mp4';
+				video.poster = '';
+				//source.setAttribute('src', 'Video/snowden.mp4');
+				//video.appendChild(source);
+			}
+			else if(x==2){
+				//alert(video)
+				document.getElementById('contenervideo').src = 'Video/snowden.mp4';
+				video.poster = '';
+				//source.setAttribute('src', 'Video/NSAisComingtoTown.mp4');
+				//video.appendChild(source);
+			}
+		}
+		</script>
+	</head>  <!--en tete-->
+	<body>   
+	<header>
+		<a href="index.html"><img alt="logo" class="images_logo" src="https://moodle.iut.univ-paris8.fr/pluginfile.php/27378/mod_resource/content/1/logo.png"></a>
+		
+	</header>
+	<nav >
+			<a class="imgnav navsep liennav" href="index.html"><img alt="Home" src="Images/btn-home.png"></a>
+			<a class="liennav navsep" href="article.html">RGPD</a>
+			<a class="liennav navsep" href="galerie.html">Galerie</a>
+			<a class="liennav" href="contact.html">Contact</a>
+			<a class="espacelogo "  href="https://twitter.com/Channel4News"><img class="imgnav" alt="Twitter" src="Images/twitt.png"></a>
+			<a class="reseaux " href="https://www.facebook.com/Channel4News/"><img class="imgnav"alt="Facebook" src="Images/facebook.png"></a>
+			<a class="reseaux" href=""><img class="imgnav" alt="Twitter" src="Images/gplus1.png"></a>
+			<a class="liennav connexionnav" href="connexion.html"><img  class="espacelogo imgnav " src="Images/avatar_default2.png">connexion</a>
+	</nav>
+	<main id="maingalerie">
+			<article id="contenervideotxt">
+					<video id="contenervideo" src="Video/NSAisComingtoTown.mp4" poster="Images/NSAisComingtoTown_Moment.jpg" width="600" height="" controls >
+					</video>
+					<div id="textVideo">
+					<h2>NSA is comming to town!</h2>
+					<p>You better watch out, You better not Skype, You better log out, Yeah you better not Skype , The NSA is comming to town! <br>
+					You're making a list,They're checking it twice,They're watching almost every electronic device, The NSA is comming to town!</p>
+					</div>
+			</article>
+
+			<article id="contenerarticledroite"> 
+				<div id="lienvideo1" onclick='changeVideo(1)'>
+					<p class="txtPhoneGalerieVideoLiens">NSA is comming to town!</p> 
+					<p>You better log out!</p>
+					</br>
+				<img id="pointGalerie1" src="Images/point.png">
+				</div>
+				<div id="lienvideo2" onclick='changeVideo(2)'>
+					<p class="txtPhoneGalerieVideoLiens">Meet Edward Snowden</> 
+					<p>Qui est Edward Snowden?</p>
+					</br>
+				<img id="pointGalerie2" src="Images/point.png" >
+				</div>
+
+			</article>
+			<article id="latestimages">
+				<h2 class="basblanc">LATEST IMAGES</h2>
+				<table>
+				<tr>
+					<td><a target="_blank" href="Images/snowden-hongkong.jpg"><img class="images_Galerie" alt="Img1" src="Images/snowden-hongkong.jpg"></a></td>	
+					<td><a target="_blank" href="Images/snowdenHONG.jpg"><img class="images_Galerie" alt="Img2" src="Images/snowdenHONG.jpg"></a></td>
+					<td><a target="_blank" href="Images/snowden_airplane.jpg"><img class="images_Galerie" alt="Img3" src="Images/snowden_airplane.jpg"></a></td>
+				</tr>
+
+				<tr>
+					<td><a target="_blank" href="Images/edward-snowden_manif.jpg"><img class="images_Galerie" alt="Img4" src="Images/edward-snowden_manif.jpg"></a></td>
+					<td><a target="_blank" href="Images/gty_snowden.jpg"><img class="images_Galerie" alt="Img5" src="Images/gty_snowden.jpg"></a></td>
+					<td><a target="_blank" href="Images/snowden-protest.jpg"><img class="images_Galerie" alt="Img6" src="Images/snowden-protest.jpg"></a></td>
+				</tr>
+
+				<tr>
+					<td><a target="_blank" href="Images/obamaputin.jpg"><img class="images_Galerie" alt="Img7" src="Images/obamaputin.jpg"></a></td>
+					<td><a target="_blank" href="Images/snowden-russia.jpg"><img class="images_Galerie" alt="Img8" src="Images/snowden-russia.jpg"></a></td>
+					<td><a target="_blank" href="Images/Snowden-refugee.jpg"><img class="images_Galerie" alt="Img9" src="Images/Snowden-refugee.jpg"></a></td>
+				</tr>
+
+				</table>
+			</article>
+			<article id="contenerCategorieDroite">
+				<h2 class="basblanc">CATEGORIES</h2> 
+						<li class="txtgris">NSA</li>
+						<li class="txtgris">Prism</li>
+						<li class="txtgris">Russia</li>
+						<li class="txtgris">Visa</li>
+						<li class="txtgris">Obama</li>
+						<li class="txtgris">Big Data</li>
+						<li class="txtgris">Privacy</li>
+			</article>
+	</main>
+	<footer>
+		<p>
+		<a href="index.html"><img alt="logo" class="images_logo" src="Images/logo.png"></a>
+		Libre de droit . Merlin Production 
+		</p>
+	</footer>
+		
+
+	</body>	
+</html>
